@@ -24,6 +24,12 @@ footer{padding:24px;font-size:.85rem;color:#666}
 .svcs{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:800px;margin:20px auto}
 .svcs li{background:#fff;border:1px solid #cfe0f2;border-radius:20px;padding:8px 16px}
 .socials{margin-top:20px}.socials p{margin:0 0 10px}.socials a{display:inline-block;background:var(--d);color:#fff;text-decoration:none;padding:8px 18px;border-radius:20px;margin:4px;font-weight:600}.socials a:hover{background:var(--b)}
+.socials a.soc{width:52px;height:52px;padding:0;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;margin:6px;transition:transform .15s}.socials a.soc:hover{transform:scale(1.12)}.soc i{width:28px;height:28px;background:#fff;-webkit-mask:var(--ic) center/contain no-repeat;mask:var(--ic) center/contain no-repeat}
+.soc.instagram{background:linear-gradient(45deg,#f09433,#dc2743 50%,#bc1888)!important;--ic:url(img/icons/instagram.svg)}
+.soc.tiktok{background:#000!important;--ic:url(img/icons/tiktok.svg)}
+.soc.youtube{background:#ff0000!important;--ic:url(img/icons/youtube.svg)}
+.soc.threads{background:#000!important;--ic:url(img/icons/threads.svg)}
+.soc.discord{background:#5865f2!important;--ic:url(img/icons/discord.svg)}
 </style></head><body>
 <header>
 <a class="brand" href="https://transcendits.com/" target="_blank" rel="noopener"><img src="img/transcend-full.jpg" alt="Transcend IT Solutions"></a>
@@ -32,11 +38,11 @@ footer{padding:24px;font-size:.85rem;color:#666}
 <p>Welcome to <strong>Keeping It Afloat</strong> – proud Spread Positivity Partner, with our own Challenge Ducks out spreading kindness!</p>
 <div class="socials">
 <p><strong>Follow the ducks on The Spread Positivity Team's socials</strong></p>
-<a href="https://www.instagram.com/thespreadpositivityteam" target="_blank" rel="noopener">Instagram</a>
-<a href="https://www.tiktok.com/@thespreadpositivityteam" target="_blank" rel="noopener">TikTok</a>
-<a href="https://www.youtube.com/channel/UCFXIv9HaH7X6ukBZ_rZHzjg" target="_blank" rel="noopener">YouTube</a>
-<a href="https://www.threads.net/@thespreadpositivityteam" target="_blank" rel="noopener">Threads</a>
-<a href="https://discord.com/invite/SRqpUnzhky" target="_blank" rel="noopener">Discord</a>
+<a class="soc instagram" href="https://www.instagram.com/thespreadpositivityteam" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram"><i></i></a>
+<a class="soc tiktok" href="https://www.tiktok.com/@thespreadpositivityteam" target="_blank" rel="noopener" aria-label="TikTok" title="TikTok"><i></i></a>
+<a class="soc youtube" href="https://www.youtube.com/channel/UCFXIv9HaH7X6ukBZ_rZHzjg" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube"><i></i></a>
+<a class="soc threads" href="https://www.threads.net/@thespreadpositivityteam" target="_blank" rel="noopener" aria-label="Threads" title="Threads"><i></i></a>
+<a class="soc discord" href="https://discord.com/invite/SRqpUnzhky" target="_blank" rel="noopener" aria-label="Discord (Smile Lounge)" title="Discord (Smile Lounge)"><i></i></a>
 </div>
 </header>
 
